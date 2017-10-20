@@ -1,1 +1,87 @@
 /*css goes here*/
+
+header {
+  background: #444;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+header section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header section img {
+  margin-top: 12px;
+  float: left;
+  margin-right: 20px;
+}
+
+header section li {
+  color: #FFF;
+  display: inline-block;
+  margin-top: 45px;
+  margin-right: 80px;
+  font-size: 20px;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+.sub-banner li {
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.sub-banner li:last-child {
+  margin-right: 0px;
+}
+
+.featured-section {
+  clear: both;
+}
+
+.featured-section img {
+  float: left;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.featured-section div {
+    margin-top: 30px;
+    width: 450px;
+    float: left;
+}
+
+.featured-section div h2 {
+  font-size: 30px;
+  margin-top 30px;
+  text-transform: capitalize;
+}
+
+.featured-section div p {
+  line-height: 50px;
+  height: 300px;
+  overflow: auto;
+}
+
+button {
+  border: none;
+  padding: 8px 36px;
+  color: white;
+  background: black;
+  font-size: 26px;
+  border-radius: 3px;
+
+}
+
+footer {
+  clear: both;
+  background: #444;
+  margin-top: 100px;
+  height: 100px;
+  overflow: auto;
+}
